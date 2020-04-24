@@ -158,7 +158,7 @@ on the server.
 
 ## Command line argument `--verbose`
 
-By default the `wotftp` server has a verbose level on 1. Valid values for
+By default the `wotftp` server has a verbose level of 1. Valid values for
 the `--verbose` command line argument are 0, 1 and 2. 0 means only display serious error messages.
 1 means display a moderate amount of information. 2 means show alot of information.
 
@@ -187,7 +187,7 @@ The TFTP protocol is insecure. It is insecure in two ways:
 One way to get around the data not being encrypted is to encrypt each file
 before it is sent.
 
-No authentication is, in my opionion, one of TFTP's strengths as files can
+No authentication is, in my opinion, one of TFTP's strengths as files can
 be sent to a TFTP server using a script or other program and there is no
 need to store sensitive user names and passwords. The one draw back is
 that once a file has been written to a TFTP server another client
@@ -197,7 +197,7 @@ for the `wotftp` server. At least the original good file would exist
 on the server with a slightly older timestamp.
 
 If security is an issue then use another file transfer protocol that meets
-the specific needs. The `wotftp` server is just one iplementation
+the specific needs. The `wotftp` server is just one implementation
 for simpler needs.
 
 ## References
